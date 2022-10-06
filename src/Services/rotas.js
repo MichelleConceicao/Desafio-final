@@ -8,7 +8,7 @@ export default function Rotas() {
   return (
     <Router>
       <Routes>
-        <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Projetos" element={<Projetos />} />
         <Route path="/Onu" element={<Onu />} />
       </Routes>

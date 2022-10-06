@@ -19,7 +19,7 @@ export default function Home() {
           <S.Ul>
             <Link
               style={{ textDecoration: "none", color: "White" }}
-              to="/Trabalhos"
+              to="/Projetos"
             >
               <li>Projetos</li>
             </Link>
