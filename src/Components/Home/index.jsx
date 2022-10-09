@@ -1,9 +1,9 @@
 import React from "react";
 import * as S from "./HomeStyle.js";
-import Foto from "../Img/Michelle.png";
-import git from "../Img/git.png";
-import face from "../Img/face.png";
-import Linkedin from "../Img/in.png";
+import Foto from "../Assets/Michelle.png";
+import git from "../Assets/git.png";
+import face from "../Assets/face.png";
+import Linkedin from "../Assets/in.png";
 
 import { Link } from "react-router-dom";
 

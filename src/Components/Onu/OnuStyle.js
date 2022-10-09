@@ -19,6 +19,33 @@ export const Ul = styled.ul`
   opacity: 30%;
   li:hover {
     cursor: pointer;
-    color: whitesmoke;
+    color: #7fffd4;
+  }
+`;
+export const Text1 = styled.section`
+  display: flex;
+  width: 100%;
+  align-itens: center;
+  font-family: Arial, Helvetica, sans-serif;
+  h1 {
+    font-size: 3rem;
+  }
+`;
+export const Text2 = styled.section`
+  display: flex;
+  width: 100%;
+  align-itens: center;
+  font-family: Arial, Helvetica, sans-serif;
+  h1 {
+    font-size: 3rem;
+  }
+`;
+export const Text3 = styled.section`
+  display: flex;
+  width: 100%;
+  align-itens: center;
+  font-family: Arial, Helvetica, sans-serif;
+  h1 {
+    font-size: 3rem;
   }
 `;

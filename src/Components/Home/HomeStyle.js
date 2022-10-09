@@ -61,7 +61,7 @@ export const Ul = styled.ul`
   opacity: 30%;
   li:hover {
     cursor: pointer;
-    color: whitesmoke;
+    color: #7fffd4;
   }
 `;
 
