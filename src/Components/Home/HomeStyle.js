@@ -23,7 +23,21 @@ export const Div = styled.div`
 export const H1 = styled.h1`
   font-family: "Times New Roman";
   letter-spacing: 0.3vw;
+  color: #fff;
   align-items: center;
+  -webkit-animation: TitleOne 2s ease-in-out infinite alternate;
+  -moz-animation: TitleOne 2s ease-in-out infinite alternate;
+  animation: TitleOne 2s ease-in-out infinite alternate;
+  @keyframes TitleOne {
+    from {
+      text-shadow: 0 0 30px #4b0082, 0 0 20px #4b0082, 0 0 30px #e0ffff,
+        0 0 40px #4b0082, 0 0 60px #e0ffff, 0 0 60px #4b0082, 0 0 70px#4B0082;
+    }
+    to {
+      text-shadow: 0 0 20px #afeeee 0 0 30px #afeeee, 0 0 40px #afeeee,
+        0 0 50px #afeeee, 0 0 60px#AFEEEE, 0 0 70px#E0FFFF, 0 0 80px #afeeee;
+    }
+  }
   width: 90%;
   font-size: 320%;
   height: 65vh;

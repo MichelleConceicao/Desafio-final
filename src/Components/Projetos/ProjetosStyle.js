@@ -25,11 +25,11 @@ export const Ul = styled.ul`
 
 export const Div = styled.div`
   left: 24%;
-  top: 20vh;
+  top: 10vh;
   position: absolute;
   display: flex;
   width: 50%;
-  height: 20vh;
+  height: 30vh;
   align-items: center;
   justify-content: center;
   @media only screen and (min-width: 360px) and (max-width: 800px) {
@@ -46,12 +46,26 @@ export const Div = styled.div`
 export const H1 = styled.h1`
   font-family: "Times New Roman";
   letter-spacing: 0.3vw;
+  color: #fff;
   display: flex;
   align-items: center;
+  -webkit-animation: TitleOne 2s ease-in-out infinite alternate;
+  -moz-animation: TitleOne 2s ease-in-out infinite alternate;
+  animation: TitleOne 2s ease-in-out infinite alternate;
+  @keyframes TitleOne {
+    from {
+      text-shadow: 0 0 30px #4b0082, 0 0 20px #4b0082, 0 0 30px #e0ffff,
+        0 0 40px #4b0082, 0 0 60px #e0ffff, 0 0 60px #4b0082, 0 0 70px#4B0082;
+    }
+    to {
+      text-shadow: 0 0 20px #afeeee 0 0 30px #afeeee, 0 0 40px #afeeee,
+        0 0 50px #afeeee, 0 0 60px#AFEEEE, 0 0 70px#E0FFFF, 0 0 80px #afeeee;
+    }
+  }
   justify-content: center;
-  width: 70%;
+  width: 50%;
   font-size: 80px;
-  height: 39vh;
+  height: 40vh;
 
   @media only screen and (min-width: 360px) and (max-width: 800px) {
     font-family: "Times New Roman";
@@ -88,14 +102,22 @@ export const Box1 = styled.div`
     align-items: flex-start;
     justify-content: space-between;
     position: absolute;
-    top: 41vh;
-    left: 56%;
+    top: 43vh;
+    left: 55%;
   }
 `;
 export const Img = styled.img`
   width: 20%;
+  transition: all 0.9s;
+  &:hover {
+    transform: scale(1.1);
+  }
   @media only screen and (min-width: 360px) and (max-width: 800px) {
     width: 40%;
+    transition: all 0.9s;
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 `;
 export const Section = styled.section`
@@ -127,4 +149,6 @@ export const H3 = styled.h3`
   display: flex;
   font-family: "Staatliches", cursive;
   font-size: 21px;
+  color: #333;
+  text-shadow: 0.1em 0.1em #e6e6fa;
 `;
