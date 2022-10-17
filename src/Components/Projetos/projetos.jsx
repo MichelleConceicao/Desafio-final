@@ -19,6 +19,7 @@ export default function App() {
           </Link>
         </S.Ul>
       </nav>
+      <hr/>
       <S.Div>
         <S.H1>Projetos</S.H1>
       </S.Div>

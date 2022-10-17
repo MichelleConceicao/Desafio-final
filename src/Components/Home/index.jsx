@@ -28,6 +28,7 @@ export default function Home() {
             </Link>
           </S.Ul>
         </nav>
+        <hr/>
         <S.Div1>
           <img src={Foto} alt="Michelle" />
         </S.Div1>

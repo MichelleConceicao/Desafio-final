@@ -100,11 +100,9 @@ export const Div2 = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 50%;
-  height: 30vh;
-  top: 70vh;
-  left: 25%;
-
+  width: 100%;
+  height: 20vh;
+  top: 80vh;
   @media only screen and (min-width: 360px) and (max-width: 800px) {
     display: flex;
     align-items: center;
