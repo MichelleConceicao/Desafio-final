@@ -5,7 +5,7 @@ export const Box = styled.div`
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
 `;
 export const Ul = styled.ul`
@@ -38,6 +38,7 @@ export const H1 = styled.h1`
   color: #fff;
   display: flex;
   align-items: center;
+  margin-bottom: 5vh;
   -webkit-animation: TitleOne 2s ease-in-out infinite alternate;
   -moz-animation: TitleOne 2s ease-in-out infinite alternate;
   animation: TitleOne 2s ease-in-out infinite alternate;
@@ -60,97 +61,155 @@ export const H1 = styled.h1`
     font-family: "Times New Roman";
     letter-spacing: 0.3vw;
     align-items: center;
-    margin-bottom: 35vh;
+    margin-bottom: 5vh;
     width: 100%;
     font-size: 32px;
     height: 30vh;
   }
 `;
 export const Button1 = styled.div`
-  height: 20vh;
-  margin-left: 20%;
-  margin-top: -1%;
+  height:25%;
+  margin-left: 40%;
+  margin-top: -4%;
   opacity: 60%;
   display:flex;
-  
-`;
-export const Button2 = styled.div`
-  height:20vh;
-  margin-left: 43%;
-  margin-top: -10%;
-  opacity: 60%; 
-  display:flex;
-  
-`;
-export const Button3 = styled.div`
-  height:20vh;
-  margin-left: 68%;
-  margin-top: -10%;
-  opacity: 60%; 
-  display:flex;
-  
-`;
-export const Button4 = styled.div`
-  height: 20vh;
-  margin-left: 30%;
-  margin-top: 5%;
-  opacity: 60%;
-  display:flex;
-  
-`;
-export const Button5 = styled.div`
-  height: 20vh;
-  margin-left: 54%;
-  margin-top: -10%;
-  opacity: 60%;
-  display:flex;
-  
-`;
-export const Button = styled.button`
-  width:150px;
+  width: 15%;
   padding: 2rem 0.5rem;
-  border-radius: 100px;
+  border-radius: 50%;
   justify-content: space-around;
   align-items: center;
   border: none;
   cursor: pointer;
+  background-color: #C0C0C0;
+  flex-direction: column;
+  margin-bottom: 5vh;
+h4 {
  
-  
-  
-  h3 {
-    margin-right: 0.5rem;
-    font-family: "Times New Roman";
-    font-size: clamp(1rem, 1.vw, 1.5rem);
-    color: #333;
-    text-shadow: 0.1em 0.1em 3f3f3f;
-    text-align: center;
-  }
-  img {
-    width: 80px;
-    aspect-ratio: 1;
-    
-  }
-  :nth-child(1) {
-    background-color: #E6E6FA;
-    
-  }
-  :nth-child(2) {
-    background-color: #E6E6FA;
-    opacity: 10%;
-  }
-  :nth-child(3) {
-    background-color: #E6E6FA;
-    
-  }
-  :nth-child(4) {
-    background-color: #E6E6FA;
-    
-    
-  }
-  :nth-child(5) {
-    background-color: #E6E6FA;
-    
-  }
+  font-family: "Times New Roman";
+  font-size: 100%;
+  color: #333;
+  text-align: center;
+}
+
+img {
+  width:60%;
+  aspect-ratio: ;
+}
+`;
+export const Button2 = styled.div`
+  height:25%;
+  margin-left: 40%;
+  margin-top: 3%;
+  opacity: 60%; 
+  display:flex;
+  width: 15%;
+  padding: 2rem 0.5rem;
+  border-radius: 50%;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: #C0C0C0;
+  flex-direction: column;
+  margin-bottom: 5vh;
+h4 {
+ 
+  font-family: "Times New Roman";
+  font-size: 100%;
+  color: #333;
+  text-align: center;
+}
+
+img {
+  width:50%;
+  aspect-ratio: ;
+}
+`;
+export const Button3 = styled.div`
+  height:25%;
+  margin-left: 40%;
+  margin-top: 3%;
+  opacity: 60%; 
+  display:flex;
+  width: 15%;
+  padding: 2rem 0.5rem;
+  border-radius: 50%;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: #C0C0C0;
+  flex-direction: column;
+  margin-bottom: 5vh;
+h4 {
+  font-family: "Times New Roman";
+  font-size: 100%;
+  color: #333;
+  text-align: center;
+}
+
+img {
+  width:50%;
+  aspect-ratio: ;
+}
+`;
+export const Button4 = styled.div`
+  height: 25%;
+  margin-left: 40%;
+  margin-top: 3%;
+  opacity: 60%;
+  display:flex;
+  width: 15%;
+  padding: 2rem 0.5rem;
+  border-radius: 50%;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: #C0C0C0;
+  flex-direction: column;
+  margin-bottom: 5vh;
+h4 {
+ 
+  font-family: "Times New Roman";
+  font-size: 100%;
+  color: #333;
+  text-align: center;
+}
+
+img {
+  width:60%;
+  aspect-ratio: ;
+}
+`;
+export const Button5 = styled.div`
+  height: 25%;
+  margin-left: 40%;
+  margin-top: 3%;
+  opacity: 60%;
+  display:flex;
+  width: 15%;
+  padding: 2rem 0.5rem;
+  border-radius: 50%;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: #C0C0C0;
+  flex-direction: column;
+  margin-bottom: 5vh;
+h4 {
+ 
+  f font-family: "Times New Roman";
+  font-size: 100%;
+  color: #333;
+  text-align: center;
+}
+
+img {
+  width:50%;
+  aspect-ratio: ;
+}
 `;
 
 export const Modal = styled.div`
@@ -160,7 +219,8 @@ export const Modal = styled.div`
   flex-direction: row;
   align-items: center;
   row-gap: 1rem;
-  color: #333;
+  color: 	#808080;
+  opacity: 60%;
 
   button {
     padding: 2.5em 1em;
@@ -171,12 +231,12 @@ export const Modal = styled.div`
     cursor: pointer;
   }
   img {
-    width:50%;
+    width:100%;
     align-items: center;
   }
   h4 {
-    font-size: clamp(2rem, 3vw, 3.5rem);
     font-family: "Times New Roman";
+    font-size:20px;
     font-weight: var(--fw-700);
     color: var(--clr-light);
   }

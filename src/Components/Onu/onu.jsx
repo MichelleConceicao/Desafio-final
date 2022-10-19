@@ -44,7 +44,7 @@ export default function App() {
         >
           <h4>Limpeza</h4>
           <img src={Limpeza} alt="Limpeza" title="Limpeza" />
-          <p>Limpeza</p>
+          <p>Reunião com os moradores para pedido de mais reponsabilidade com as necessidades de seu bichinhos de estimação os acompanhando durante os passeios e recolhendo a sujeira por eles deixadas. </p>
           <button onClick={() => closeFunction({ a: !state.a })}>Close</button>
         </Modal>
         <b />
@@ -53,9 +53,9 @@ export default function App() {
           <img src={Segurança} alt="Segurança" title="Segurança" />
         </S.Button2>
         <Modal closeFunction={closeFunction} isOpen={state.b}>
-          <img src={Segurança} alt="Segurança" title="Segurança" />
           <h2>Segurança</h2>
-          <p></p>
+          <img src={Segurança} alt="Segurança" title="Segurança" />
+          <p>Reunião junto aos moradores para a implementação de cameras de segurança no portão de entrada da rua com monitoramento ao vivo pelo moradores.</p>
           <button onClick={() => closeFunction({ b: !state.b })}>Close</button>
         </Modal>
         <b />
@@ -64,29 +64,30 @@ export default function App() {
           <img src={Calçadas} alt="Calçadas" title="Calçadas" />
         </S.Button3>
         <Modal closeFunction={closeFunction} isOpen={state.c}>
-          <img src={Calçadas} alt="Calçadas" title="Calçadas" />
           <h2>Calçadas</h2>
-          <p></p>
+          <img src={Calçadas} alt="Calçadas" title="Calçadas" />
+          <p>Pedido junto a prefeitura do Município para reforma e padronização das calçadas, assim proporcionando maior acessibilidade a pessoas deficientes fisicas.</p>
           <button onClick={() => closeFunction({ c: !state.c })}>Close</button>
         </Modal>
         <b />
         <S.Button4 onClick={() => closeFunction({ d: !state.d })}><h4>Arborização</h4>
         <img src={Arborização} alt="Arborização" title="Arborização" /></S.Button4>
         <Modal closeFunction={closeFunction} isOpen={state.d}>
-        <img src={Arborização} alt="Arborização" title="Arborização" />
           <h2>Arborização</h2>
-          <p></p>
+          <img src={Arborização} alt="Arborização" title="Arborização" />
+          <p>Fazer uma reunião com moradores sobre preservação e plantio de novas arvores pelas calças do município.</p>
           <button onClick={() => closeFunction({ d: !state.d })}>Close</button>
         </Modal>
         <b />
         <S.Button5 onClick={() => closeFunction({ e: !state.e })}><h4>Reciclagem</h4>
         <img src={Reciclagem} alt="Reciclagem" title="Reciclagem" /></S.Button5>
         <Modal closeFunction={closeFunction} isOpen={state.e}>
-        <img src={Reciclagem} alt="Reciclagem" title="Reciclagem" />
-          <h2>Reciclagem</h2>
-          <p>- </p>
+          <h2> Reciclagem </h2>
+          <img src={Reciclagem} alt="Reciclagem" title="Reciclagem" />
+          <p>Fazer pedido junto a prefeitura de tonéis de lixo reciclável para serem colocadas nas esquinas das ruas, e reunião com os moradores para que o descarte do lixo seja feito de maneira conciente.  </p>
           <button onClick={() => closeFunction({ e: !state.e })}>Close</button>
         </Modal>
+        <hr />
     </S.Box>
   );
 }
