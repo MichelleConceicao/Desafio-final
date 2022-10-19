@@ -66,7 +66,7 @@ export const H1 = styled.h1`
     height: 30vh;
   }
 `;
-export const Box1 = styled.div`
+export const Button1 = styled.div`
   height: 20vh;
   margin-left: 20%;
   margin-top: -1%;
@@ -74,7 +74,7 @@ export const Box1 = styled.div`
   display:flex;
   
 `;
-export const Box2 = styled.div`
+export const Button2 = styled.div`
   height:20vh;
   margin-left: 43%;
   margin-top: -10%;
@@ -82,7 +82,7 @@ export const Box2 = styled.div`
   display:flex;
   
 `;
-export const Box3 = styled.div`
+export const Button3 = styled.div`
   height:20vh;
   margin-left: 68%;
   margin-top: -10%;
@@ -90,7 +90,7 @@ export const Box3 = styled.div`
   display:flex;
   
 `;
-export const Box4 = styled.div`
+export const Button4 = styled.div`
   height: 20vh;
   margin-left: 30%;
   margin-top: 5%;
@@ -98,7 +98,7 @@ export const Box4 = styled.div`
   display:flex;
   
 `;
-export const Box5 = styled.div`
+export const Button5 = styled.div`
   height: 20vh;
   margin-left: 54%;
   margin-top: -10%;
